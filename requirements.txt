@@ -1,0 +1,8 @@
+flask
+Flask-SQLAlchemy
+Flask_WTF
+flask-cors
+flask-session
+gunicorn
+google-cloud-firestore
+firebase-admin
