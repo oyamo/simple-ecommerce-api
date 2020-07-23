@@ -4,7 +4,7 @@ Available on https://i-shop-api.herokuapp.com
 
 #Usage
 
- <table border="1">
+ <table>
         <thead>
             <tr>
                 <td>#</td>
