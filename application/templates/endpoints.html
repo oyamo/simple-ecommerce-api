@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endpoints</title>
+</head>
+<body>
+    <h1>Ecommerce API</h1>
+    <p>Test with Postman or CURL </p>
+    <table border="1">
+        <thead>
+            <tr>
+                <td>#</td>
+                <td>METHOD</td>
+                <td>ENDPOINT</td>
+                <td>PARAMETERS</td>
+                <td>USE</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>GET</td>
+                <td>/api/products</td>
+                <td></td>
+                <td>List All products in the store</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>POST</td>
+                <td>/api/products</td>
+                <td>
+                    <ul>
+                        <li>category [String]- Comma seperated for multiple values </li>
+                        <li>product_name [String]</li>
+                        <li>description - [String]</li>
+                        <li>product_price - [Float]</li>
+                        <li>img_urls - [String]- Comma seperated for multiple URLS</li>
+                        <li>currency - [String]</li>
+                        <li>quantity - [Int]</li>
+                    </u>
+                </td>
+                <td>Adds a product into the store</td>
+            </tr>
+        </thead>
+    </table>
+</body>
+</html>
