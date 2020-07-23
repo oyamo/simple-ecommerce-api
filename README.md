@@ -1,8 +1,9 @@
-# Simple Ecommerce Backend using flask & google-cloud-firestore
+## Simple Ecommerce Backend using flask & google-cloud-firestore
 
 Available on https://i-shop-api.herokuapp.com
 
-#Usage
+# Usage
+
 
  <table>
         <thead>
