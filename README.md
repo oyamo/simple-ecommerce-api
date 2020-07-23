@@ -1,22 +1,41 @@
-# Ecommerce Project
+# Simple Ecommerce Backend using flask & google-cloud-firestore
 
-This is an ecommerce web application that enables users to view, search for and order items from the store
+Available on https://i-shop-api.herokuapp.com
 
-# Technologies
+#Usage
 
-* Python - Language used for the backend
-    * Flask_SQLAlchemy - for connecting to the sqlite database and querying data
-    * Flask_Cors & Flask_session for managing sessions accross requests
-    * Flask - Web framework
-    * Sqlite - database
-* HTML/CSS/JS (Bootstrap) responsible for presenting the app on the browser
-
-# Running up
-
-```bash
-cd *[Projectfolder]
-python -m pip install -r requirements.txt
-python -m flask run app.py
-```
-
-* Projectfolder is the folder that contains the content of the app
+ <table border="1">
+        <thead>
+            <tr>
+                <td>#</td>
+                <td>METHOD</td>
+                <td>ENDPOINT</td>
+                <td>PARAMETERS</td>
+                <td>USE</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>GET</td>
+                <td>/api/products</td>
+                <td></td>
+                <td>List All products in the store</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>POST</td>
+                <td>/api/products</td>
+                <td>
+                    <ul>
+                        <li>category [String]- Comma seperated for multiple values </li>
+                        <li>product_name [String]</li>
+                        <li>description - [String]</li>
+                        <li>product_price - [Float]</li>
+                        <li>img_urls - [String]- Comma seperated for multiple URLS</li>
+                        <li>currency - [String]</li>
+                        <li>quantity - [Int]</li>
+                    </u>
+                </td>
+                <td>Adds a product into the store</td>
+            </tr>
+        </thead>
+    </table>
